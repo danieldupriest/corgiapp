@@ -1,0 +1,19 @@
+{
+  "name": "corgiapp",
+  "version": "1.0.0",
+  "description": "An application which helps organize people to enact real change in their communities.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.mjs",
+    "dev": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "daniel.jon.dupriest@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
